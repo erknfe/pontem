@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=KBfXZt_vjPc
 `sudo docker-compose -f monitoring.docker-compose.yml up -d`  
 
 On the browser  
-`<IP:3000>`  
+`<IP>:3000`  
 (user: admin, password: admin)  
 # Node autorestart  
 `sudo docker run -d --name autorestart-pontem --restart always -v /var/run/docker.sock:/var/run/docker.sock pontem/pontem-scripts:latest autorestart pontem-node 300 5`  
