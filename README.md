@@ -34,3 +34,4 @@ On the browser
 (user: admin, password: admin)  
 # Node autorestart  
 `sudo docker run -d --name autorestart-pontem --restart always -v /var/run/docker.sock:/var/run/docker.sock pontem/pontem-scripts:latest autorestart pontem-node 300 5`  
+`sudo docker-compose up -d`  
